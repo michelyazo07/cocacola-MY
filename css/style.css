@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*banner*/
+.banner {
+    width: 100%;
+}
+
+/*menu*/
+.filamenu {
+    border-radius:  2px rgb(238, 41, 34) solid;
+    text-align: center;
+}
+.textomenu {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.menu {
+    padding-top: 25px;
+}
+
+/*quienes somos*/
+.fila {
+    padding: 55px;
+}
+.mujer {
+    width: 65%;
+}
+.nombre {
+    color: rgb(175, 10, 10);
+    font-size: 75px;
+    text-align: center;
+}
+.texto {
+    color: rgb(61, 61, 61);
+    text-align: justify;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+.boton {
+    border: 1px solid rgb(175, 10, 10);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(175, 10, 10);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*productos*/
+.productos {
+    width: 55%;
+    display: flex;
+    justify-content:center;
+    padding-left: 65px;
+}
+
+/*footer*/
+.redes {
+    width: 10%;
+    padding: 10px;
+}
+.play {
+    height: 45px;
+}
